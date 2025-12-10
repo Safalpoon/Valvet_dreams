@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  // Mobile Navigation Toggle
 //  const mobileToggle = document.getElementById('mobile-toggle');
 //  const nav = document.getElementById('nav');
@@ -90,6 +90,7 @@ closeBtn.addEventListener('click', () => {
        excerpt: 'When Lily discovers a door in her grandmother\'s attic that wasn\'t there yesterday, she steps into a world beyond imagination.'
      }
    ];
+  
    
    stories.forEach(story => {
      const storyCard = document.createElement('div');
@@ -106,8 +107,10 @@ closeBtn.addEventListener('click', () => {
        </div>
      `;
      storyList.appendChild(storyCard);
-   });
-=======
+    });
+  
+  
+
  // Mobile Navigation Toggle
 //  const mobileToggle = document.getElementById('mobile-toggle');
 //  const nav = document.getElementById('nav');
@@ -199,6 +202,7 @@ closeBtn.addEventListener('click', () => {
        excerpt: 'When Lily discovers a door in her grandmother\'s attic that wasn\'t there yesterday, she steps into a world beyond imagination.'
      }
    ];
+  }
    
    stories.forEach(story => {
      const storyCard = document.createElement('div');
@@ -216,5 +220,5 @@ closeBtn.addEventListener('click', () => {
      `;
      storyList.appendChild(storyCard);
    });
->>>>>>> 29f9e61 (Initial code)
- }
+
+  }
